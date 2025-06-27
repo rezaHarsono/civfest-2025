@@ -34,7 +34,19 @@
                 </div>
             @endforeach
         </section>
-        <x-sponsor></x-sponsor>
+        <section data-aos="fade-up" class="px-10 md:px-24 pb-10">
+            <div class="min-w-full bg-white border-4 rounded-3xl">
+                <h1 class="text-center text-xl lg:text-4xl text-orange-800 font-bold py-10">Sponsored By</h1>
+                <div class="flex flex-wrap justify-center items-center pb-10 gap-10 md:gap-24">
+                    @foreach ($sponsors as $sponsor)
+                        <div>
+                            <img class="w-14 h-14 md:w-20 md:h-20 brightness-50 hover:brightness-100 transition-all duration-300"
+                                src="../../img/bronze/{{ $sponsor['image'] }}" alt="" />
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </section>
         <x-footer></x-footer>
     </div>
 </x-layout>

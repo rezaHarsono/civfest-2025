@@ -35,18 +35,19 @@
             <div class="tracking-widest font-bold">
                 <h1 class="text-orange-100 text-base lg:text-4xl py-[0.1rem] lg:py-2">Registration Fee</h1>
 
-                <p class="text-orange-100 text-base lg:text-2xl py-[0.1rem] lg:py-2">Presale 1</p>
+                <p class="text-orange-100 text-base lg:text-2xl py-[0.1rem] lg:py-2">Early Bird</p>
                 <p class="text-orange-100 font-light text-sm lg:text-xl py-2">
-                    Rp. 25.000</p>
+                    Rp. 20.000</p>
 
-                <h1 class="text-orange-100 text-base lg:text-2xl py-[0.1rem] lg:py-2">Presale 2
+                <h1 class="text-orange-100 text-base lg:text-2xl py-[0.1rem] lg:py-2">Regular
                 </h1>
                 <h1 class="text-orange-100 font-light text-sm lg:text-xl py-2">
                     Rp. 35.000</h1>
 
             </div>
             <div class="flex flex-col lg:gap-10 gap-5">
-                <a href="https://forms.gle/meQC2Xg2VoBX7uFC6" target="_blank">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScy8_hkUwr0CNupEdhRCnDz9I3R_Wn2AGo6I5maBy0uEzO5-g/viewform"
+                    target="_blank">
                     <button
                         class="group relative h-10 w-60 lg:h-20 lg:w-96 overflow-hidden rounded-lg bg-white text-lg shadow-2xl">
                         <div

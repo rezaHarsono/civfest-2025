@@ -21,7 +21,7 @@ class Event
                 'nama_event' => 'National Seminar',
                 'deskripsi' => 'National Seminar is a seminar activity aimed at academics, experts, practitioners, and the general public. It aims to provide knowledge to participants about the themes to be discussed related to construction technology.',
                 'slug' => 'seminar-page',
-                'link_event' => 'https://forms.gle/xGpeyo5astC7UKo96',
+                'link_event' => 'https://docs.google.com/forms/d/e/1FAIpQLScy8_hkUwr0CNupEdhRCnDz9I3R_Wn2AGo6I5maBy0uEzO5-g/viewform',
                 'link_page' => ''
             ],
 

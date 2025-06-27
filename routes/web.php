@@ -5,9 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Models\Competition;
 use App\Models\Event;
 use App\Models\Past;
+use App\Models\Sponsor;
 
 Route::get('/', function () {
-    return view('home', ['title' => 'Home Page', 'competitions' => Competition::all()]);
+    return view('home', ['title' => 'Home Page', 'competitions' => Competition::all(), 'sponsors' => Sponsor::all()]);
 });
 
 Route::get('/gallery', function () {
